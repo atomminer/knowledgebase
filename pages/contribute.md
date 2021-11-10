@@ -1,6 +1,16 @@
-## Repository
+---
+title: Contribute
+subtitle: What you give, is what you get
+image: blur-bg2.jpg
+sidebar: true
+summary: Contribute your knowledege and experience AtomMiner Knowledge Base.
+---
 
-This repository contains articles and resources published on https://kb.atomminer.com website.
+## Why Knowledge Base? Not a Forum? or Something?
+
+Knowledge base beats all other solutions on this field and here's why:
+
+When you use a knowledge base to share information and knowledge, the stored data is easily accessible, easily searchable and it can be easily updated whenever is needed. Every single user has the chance of solving their problems without additional help from AtomMiner and share their knowledge and experience with other users.
 
 ### Why Contribute?
 
