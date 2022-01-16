@@ -42,11 +42,16 @@ Please note that only single instance of `atomminer-cli` will be working at any 
 
 Latest development version of the `atomminer-cli` can be installed using helper setup script:
 ```bash
-wget -qO- https://static.atomminer.com/software/dev/get-am-cli.sh | bash
+wget -qO- https://static.atomminer.com/software/dev/install-amcli.sh | bash
 ```
 or if you need a debug version:
 ```bash
-wget -qO- https://static.atomminer.com/software/dev/get-am-cli-debug.sh | bash
+/bin/bash -c "$(wget -qO- https://static.atomminer.com/software/dev/install-amcli.sh)" 'install' --debug
+```
+
+Install script does support "dry-run" mode when only update plan is printed and no actual changes are made to the file system:
+```bash
+/bin/bash -c "$(wget -qO- https://static.atomminer.com/software/dev/install-amcli.sh)" 'install' --dry
 ```
 
 This script will backup your current version of `atomminer-cli`, then check your current CPU architecture and download correct new binary version for your architecture. NOTE: this script designed to work with Debian-based Linux distributions only. If you're using anything other than Debian, please download files manually.
