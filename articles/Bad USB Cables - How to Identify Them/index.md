@@ -35,7 +35,7 @@ Based on our experience, we can recommend the following steps:
 Here's one of the examples
 ![bad-cable-error-71](./bad-usb-cable.png)
 
-Error is pretty much self descriptive. Please replace your USB cable with another tested working cable.
+Error is pretty much self explanatory. Please replace your USB cable with another tested working cable.
 
 ## Conclusion
 
